@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Auction Aisle</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <div class="circle">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="text">
+                Bid<span>Spirit</span>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Dive into the catalogs">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="mark">
+                <h2 class="mark-button">Auctions</h2>
+                <div class="dropdown">
+                    <a href="index.html">Upcoming Auctions</a>
+                    <a href="Completed.html">Completed Auctions</a>
+                    <!-- <a href="future.html">Future Auctions</a> -->
+                    <a href="sponsors.html">Sponsored Auctions</a>
+                </div>
+            </li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Login/Register</a>
+                <div class="dropdown-content">
+                    <div class="tabs">
+                        <button class="tablink active" onclick="openTab(event, 'login')">Login</button>
+                        <button class="tablink" onclick="openTab(event, 'register')">Register</button>
+                    </div>
+                    <form id="login" class="tabcontent">
+                        <input type="text" placeholder="Username" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Login</button>
+                    </form>
+                    <form id="register" class="tabcontent">
+                        <input type="text" placeholder="Full Name" required>
+                        <span class="error"></span>
+                        <input type="email" placeholder="Email" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <div class="language-dropdown">
+                    <select>
+                        <option value="en" data-icon="🇺🇸">English</option>
+                        <option value="es" data-icon="🇪🇸">Español</option>
+                        <option value="fr" data-icon="🇫🇷">Français</option>
+                        <option value="de" data-icon="🇩🇪">Deutsch</option>
+                        <option value="zh" data-icon="🇨🇳">中文</option>
+                        <option value="ja" data-icon="🇯🇵">日本語</option>
+                        <option value="ru" data-icon="🇷🇺">Русский</option>
+                        <option value="ar" data-icon="🇸🇦">العربية</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="menu">
+                    <h2 class="menu-button">Help</h2>
+                    <div class="dropdown">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </div>
+            </li>
+            <li><span id="visitorCount" class="visitorCount">Visitors: Loading...</span></li>
+        </ul>
+    </nav>
+
+    <!-- FAQ Section -->
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+            <summary>How do I place a bid?</summary>
+            <p>To place a bid, you need to create an account and log in. Once logged in, navigate to the item you want to bid on and enter your bid amount.</p>
+        </details>
+        <details>
+            <summary>What happens if I win an auction?</summary>
+            <p>If you win an auction, you will receive an email confirmation with payment and delivery details.</p>
+        </details>
+        <details>
+            <summary>Are there any fees for bidding?</summary>
+            <p>Bidding is free, but a buyer's premium may be added to the final price.</p>
+        </details>
+        <details>
+            <summary>How do I create an account?</summary>
+            <p>You can create an account by clicking on the 'Sign Up' button and filling in the required details.</p>
+        </details>
+        <details>
+            <summary>Can I retract a bid?</summary>
+            <p>No, once a bid is placed, it cannot be retracted. Please bid carefully.</p>
+        </details>
+        <details>
+            <summary>How do I know if an item is authentic?</summary>
+            <p>All items go through a verification process before being listed on the platform.</p>
+        </details>
+        <details>
+            <summary>What payment methods are accepted?</summary>
+            <p>We accept credit cards, PayPal, and bank transfers.</p>
+        </details>
+        <details>
+            <summary>How long does an auction last?</summary>
+            <p>Each auction has a set duration, which is mentioned on the item’s page.</p>
+        </details>
+        <details>
+            <summary>Can I sell my own items on the auction site?</summary>
+            <p>Yes, registered users can list their items for auction after approval from our team.</p>
+        </details>
+        <details>
+            <summary>Is there a customer support service?</summary>
+            <p>Yes, we offer customer support via email and live chat. Visit our 'Contact Us' page for more details.</p>
+        </details>
+        <details>
+            <summary>What happens if my item does not arrive?</summary>
+            <p>If your item does not arrive within the estimated delivery time, please contact customer support for assistance.</p>
+        </details>
+        <details>
+            <summary>Can I edit or delete my auction listing?</summary>
+            <p>Yes, sellers can edit or delete their auction listings before any bids are placed. Once bidding has started, changes may be limited.</p>
+        </details>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Auction Aisle. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+<script src="script.js"></script>
+    <!-- Script for Hamburger Menu -->
+    <!-- <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script> -->
+</body>
+</html>

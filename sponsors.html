@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Auction Aisle+</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="circle">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="text">
+                Bid<span>Spirit</span>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Dive into the catalogs">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="mark">
+                <h2 class="mark-button">Auctions</h2>
+                <div class="dropdown">
+                    <a href="index.html">Upcoming Auctions</a>
+                    <a href="Completed.html">Completed Auctions</a>
+                    <!-- <a href="future.html">Future Auctions</a> -->
+                    <a href="sponsors.html">Sponsored Auctions</a>
+                </div>
+            </li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Login/Register</a>
+                <div class="dropdown-content">
+                    <div class="tabs">
+                        <button class="tablink active" onclick="openTab(event, 'login')">Login</button>
+                        <button class="tablink" onclick="openTab(event, 'register')">Register</button>
+                    </div>
+                    <form id="login" class="tabcontent">
+                        <input type="text" placeholder="Username" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Login</button>
+                    </form>
+                    <form id="register" class="tabcontent">
+                        <input type="text" placeholder="Full Name" required>
+                        <span class="error"></span>
+                        <input type="email" placeholder="Email" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <div class="language-dropdown">
+                    <select>
+                        <option value="en" data-icon="🇺🇸">English</option>
+                        <option value="es" data-icon="🇪🇸">Español</option>
+                        <option value="fr" data-icon="🇫🇷">Français</option>
+                        <option value="de" data-icon="🇩🇪">Deutsch</option>
+                        <option value="zh" data-icon="🇨🇳">中文</option>
+                        <option value="ja" data-icon="🇯🇵">日本語</option>
+                        <option value="ru" data-icon="🇷🇺">Русский</option>
+                        <option value="ar" data-icon="🇸🇦">العربية</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="menu">
+                    <h2 class="menu-button">Help</h2>
+                    <div class="dropdown">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </div>
+            </li>
+            <li><span id="visitorCount" class="visitorCount">Visitors: Loading...</span></li>
+        </ul>
+    </nav>
+    
+</nav>
+<!-- ---------------------------------Sponsor Houses-------------------------------------------- -->
+
+<header>
+    <h1>Sponsor Houses</h1>
+    <hr class="divider">
+    <p>
+        Below is a list of the Sponsor houses in Israel.
+        If you have an item which you would like to sell or
+        you have a question, you may contact the auction <br>
+        houses by pressing the "more details" link in the
+        relevant auction house section.
+    </p>
+</header>
+<!-- <input type="text" class="search-dar" placeholder="Search auction house"> -->
+<main>
+    <div class="auction-house">
+        <h2>Hammer site</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Kedem</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Yair Gallery</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Claudio's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Winner's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Archaeological Center</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Empire Auctions</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Art Club</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auction House</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Bidder</h2>
+    </div>
+    <div class="auction-house">
+        <h2>Hammer site</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Kedem</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Yair Gallery</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Claudio's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Winner's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Archaeological Center</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Empire Auctions</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Art Club</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auction House</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Bidder</h2>
+    </div>
+    <div class="auction-house">
+        <h2>Hammer site</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Kedem</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Yair Gallery</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Claudio's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Winner's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Archaeological Center</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Empire Auctions</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Art Club</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auction House</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Bidder</h2>
+    </div>
+    <div class="auction-house">
+        <h2>Hammer site</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Kedem</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Yair Gallery</h2>
+    </div>
+
+    <div class="auction-house">
+x            <h2>Claudio's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Winner's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Archaeological Center</h2>
+    </div>
+
+    <div class="auction-house">
+x            <h2>Empire Auctions</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Art Club</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auction House</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+x            <h2>The Bidder</h2>
+    </div>
+    <div class="auction-house">
+        <h2>Hammer site</h2>
+    </div>
+
+    <div class="auction-house">
+x            <h2>Kedem</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Yair Gallery</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Claudio's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Winner's</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Archaeological Center</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Empire Auctions</h2>
+    </div>
+
+    <div class="auction-house">
+        <h2>Art Club</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auction House</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Auctioneer</h2>
+    </div>
+    
+    <div class="auction-house">
+        <h2>The Bidder</h2>
+    </div>
+</main>
+<button id="upButton" class="up-button" title="Go to up">⬆</button>
+
+<div class="tickerWrapper">
+    <div class="ticker">
+        <div class="tickerContent">
+            <span id="dateTime">📅 Fetching time...</span>
+            <span id="location">📍 Fetching location...</span>
+        </div>
+        <div class="tickerContent" aria-hidden="true">
+            <span id="dateTimeMirror">📅 Fetching time...</span>
+            <span id="locationMirror">📍 Fetching location...</span>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+    <p>© 2025 Auction aisle. All rights reserved.</p>
+    <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

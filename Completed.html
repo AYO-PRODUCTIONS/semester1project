@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Auction Aisle+</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="circle">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="text">
+                Bid<span>Spirit</span>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Dive into the catalogs">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="mark">
+                <h2 class="mark-button">Auctions</h2>
+                <div class="dropdown">
+                    <a href="index.html">Upcoming Auctions</a>
+                    <a href="Completed.html">Completed Auctions</a>
+                    <!-- <a href="future.html">Future Auctions</a> -->
+                    <a href="sponsors.html">Sponsored Auctions</a>
+                </div>
+            </li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Login/Register</a>
+                <div class="dropdown-content">
+                    <div class="tabs">
+                        <button class="tablink active" onclick="openTab(event, 'login')">Login</button>
+                        <button class="tablink" onclick="openTab(event, 'register')">Register</button>
+                    </div>
+                    <form id="login" class="tabcontent">
+                        <input type="text" placeholder="Username" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Login</button>
+                    </form>
+                    <form id="register" class="tabcontent">
+                        <input type="text" placeholder="Full Name" required>
+                        <span class="error"></span>
+                        <input type="email" placeholder="Email" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <div class="language-dropdown">
+                    <select>
+                        <option value="en" data-icon="🇺🇸">English</option>
+                        <option value="es" data-icon="🇪🇸">Español</option>
+                        <option value="fr" data-icon="🇫🇷">Français</option>
+                        <option value="de" data-icon="🇩🇪">Deutsch</option>
+                        <option value="zh" data-icon="🇨🇳">中文</option>
+                        <option value="ja" data-icon="🇯🇵">日本語</option>
+                        <option value="ru" data-icon="🇷🇺">Русский</option>
+                        <option value="ar" data-icon="🇸🇦">العربية</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="menu">
+                    <h2 class="menu-button">Help</h2>
+                    <div class="dropdown">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </div>
+            </li>
+            <li><span id="visitorCount" class="visitorCount">Visitors: Loading...</span></li>
+        </ul>
+    </nav>
+    <h6 id="">Note: that the time is displayed in your local time</h6>
+    <h2 class="upc">Completed Auctions</h2>
+    <hr class="sho">
+
+    <div class="long">
+<div class="ver">
+    <img src="img/chair.jpeg" class="tile"> 
+    <h5 class="versale">Auric Throne - Auction 002</h5>
+    <h4 class="indoor">Tuesday, Feb13, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Ancient</h4>
+    <button class="Done">Done</button>
+</div>
+
+<div class="cat">
+    <img src="img/dagger.jpeg" class="tile"> 
+    <h5 class="versale">Roman Dagger - Auction 46</h5>
+    <h4 class="indoor">Friday, Jan16, 7:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Neves Barrida </h4>
+    <button class="Done">Done</button>
+</div>
+<div class="dog">
+    <img src="img/egypt.jpeg" class="tile"> 
+    <h5 class="versale">Statue of Pharoah - Auction 75</h5>
+    <h4 class="indoor">Monday, Jan12, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Elegance</h4>
+    <button class="pin">Done</button>
+</div>
+<div class="web">
+    <img src="img/aliko.jpeg" class="tile"> 
+    <h5 class="versale">Halx house - Auction 77</h5>
+    <h4 class="indoor">Thursday, Jan17, 4:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Luxury</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="pac">
+    <img src="img/pilate.jpeg" class="tile"> 
+    <h5 class="versale">Pilate - Auction 33</h5>
+    <h4 class="indoor">Monday, Feb7, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Artifacts</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="cow">
+    <img src="img/arson.jpeg" class="tile"> 
+    <h5 class="versale">Arson Martin - Auction 38</h5>
+    <h4 class="indoor">Tuesday, Jan23, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Luxury</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="lak">
+    <img src="img/art house.jpeg" class="tile"> 
+    <h5 class="versale">Melodic Harmony - Auction 61</h5>
+    <h4 class="indoor">saturday, Feb18, 3:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Fine Art</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="chill">
+    <img src="img/gods.jpeg" class="tile"> 
+    <h5 class="versale">Ancent gods - Auction 73</h5>
+    <h4 class="indoor">Tuesday, Jan13, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Artifacts</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="palm">
+    <img src="img/Suv.jpeg" class="tile"> 
+    <h5 class="versale">SUV - Auction 56</h5>
+    <h4 class="indoor">Monday, Feb27, 7:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Luxury</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="map">
+    <img src="img/wit pool.jpeg" class="tile"> 
+    <h5 class="versale">Vista Luxe - Auction 94</h5>
+    <h4 class="indoor">saturday, Feb30, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Luxury</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="nap">
+    <img src="img/tofogu.jpeg" class="tile"> 
+    <h5 class="versale">Tofugo - Auction 39</h5>
+    <h4 class="indoor">Tuesday, Feb25, 4:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Collectibles</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="pse">
+    <img src="img/tablet.jpeg" class="tile"> 
+    <h5 class="versale">Greek Tab - Auction 52</h5>
+    <h4 class="indoor">Wednesday, Mar1, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Ancient</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="cake">
+    <img src="img/greek.jpeg" class="tile"> 
+    <h5 class="versale">Olympian seat - Auction 64</h5>
+    <h4 class="indoor">Tuesday, Feb18, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Ancient</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="kane">
+    <img src="img/pots.jpeg" class="tile"> 
+    <h5 class="versale">Echoes of Clay - Auction 49</h5>
+    <h4 class="indoor">Friday, Feb18, 1:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">General auction</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="salah">
+    <img src="img/rani.jpeg" class="tile"> 
+    <h5 class="versale">The Noble Nest - Auction 51</h5>
+    <h4 class="indoor">saturday, Jan30, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Royal</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="enzo">
+    <img src="img/los angeles.jpeg" class="tile"> 
+    <h5 class="versale">Aurora Residence - Auction 88</h5>
+    <h4 class="indoor">saturday, Feb13, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Luxury</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="eke">
+    <img src="img/kalidu.jpeg" class="tile"> 
+    <h5 class="versale">Council Chamber - Auction 100</h5>
+    <h4 class="indoor">Tuesday, Mar2, 2:00am</h4>
+    <hr class="line">
+    <h4 class="gen">Fine Art</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="neto">
+    <img src="img/katana.jpeg" class="tile"> 
+    <h5 class="versale">Katana - Auction 94</h5>
+    <h4 class="indoor">Tuesday, Feb21, 2:30pm</h4>
+    <hr class="line">
+    <h4 class="gen">Collectibles</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="tosin">
+    <img src="img/land.jpg" class="tile"> 
+    <h5 class="versale">Beholding Grace" - Auction 35</h5>
+    <h4 class="indoor">Monday, Mar3, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Fine Art</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="james">
+    <img src="img/chest.jpeg" class="tile">
+    <h5 class="versale">Sapphire Hoard - Auction 13</h5>
+    <h4 class="indoor">Thursday, Mar6, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">General auction</h4>
+    <button class="Done">Done</button>
+</div>
+<div class="cucu">
+    <img src="img/Lambo.jpeg" class="tile"> 
+    <h5 class="versale">Lamboghirni - Auction 21</h5>
+    <h4 class="indoor">Wednesday, Jan31, 9:00pm</h4>
+    <hr class="line">
+    <h4 class="gen">Luxury</h4>
+    <button class="Done">Done</button>
+</div>
+
+</div>
+
+<!-- <div class="chat-container">
+    <div class="chat-box" id="chatBox"></div>
+    <div class="input-box">
+        <input type="text" id="userInput" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div> -->
+    <button id="upButton" class="up-button" title="Go to up">⬆</button>
+
+    <div class="tickerWrapper">
+        <div class="ticker">
+            <div class="tickerContent">
+                <span id="dateTime">📅 Fetching time...</span>
+                <span id="location">📍 Fetching location...</span>
+            </div>
+            <div class="tickerContent" aria-hidden="true">
+                <span id="dateTimeMirror">📅 Fetching time...</span>
+                <span id="locationMirror">📍 Fetching location...</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <p>© 2025 Auction aisle. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

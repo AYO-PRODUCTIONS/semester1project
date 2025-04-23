@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Auction Aisle+</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="circle">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="text">
+                Bid<span>Spirit</span>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Dive into the catalogs">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="mark">
+                <h2 class="mark-button">Auctions</h2>
+                <div class="dropdown">
+                    <a href="index.html">Upcoming Auctions</a>
+                    <a href="Completed.html">Completed Auctions</a>
+                    <!-- <a href="future.html">Future Auctions</a> -->
+                    <a href="sponsors.html">Sponsored Auctions</a>
+                </div>
+            </li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Login/Register</a>
+                <div class="dropdown-content">
+                    <div class="tabs">
+                        <button class="tablink active" onclick="openTab(event, 'login')">Login</button>
+                        <button class="tablink" onclick="openTab(event, 'register')">Register</button>
+                    </div>
+                    <form id="login" class="tabcontent">
+                        <input type="text" placeholder="Username" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Login</button>
+                    </form>
+                    <form id="register" class="tabcontent">
+                        <input type="text" placeholder="Full Name" required>
+                        <span class="error"></span>
+                        <input type="email" placeholder="Email" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <div class="language-dropdown">
+                    <select>
+                        <option value="en" data-icon="🇺🇸">English</option>
+                        <option value="es" data-icon="🇪🇸">Español</option>
+                        <option value="fr" data-icon="🇫🇷">Français</option>
+                        <option value="de" data-icon="🇩🇪">Deutsch</option>
+                        <option value="zh" data-icon="🇨🇳">中文</option>
+                        <option value="ja" data-icon="🇯🇵">日本語</option>
+                        <option value="ru" data-icon="🇷🇺">Русский</option>
+                        <option value="ar" data-icon="🇸🇦">العربية</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="menu">
+                    <h2 class="menu-button">Help</h2>
+                    <div class="dropdown">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </div>
+            </li>
+            <li><span id="visitorCount" class="visitorCount">Visitors: Loading...</span></li>
+        </ul>
+    </nav>
+    <h1>About Us</h1><hr style="width: 7%; justify-self: center;">
+    <div class="about">
+  <div class="abt">
+    <img class="imgauc" src="img/aliko.jpeg" alt=""> 
+  </div>
+
+  <div class="abt1">
+    <h3>Welcome to Bid Spirit - where bidding meets opportunity.</h3>
+    <P>
+        At Bid Spirit, we believe that auctions are more than just 
+        transactions—they're a chance to discover unique treasures, explore rare finds,
+         and participate in a dynamic, fast-paced marketplace. Whether you're a seasoned collector,
+          a first-time bidder, or simply someone looking for that perfect item, we provide a seamless, 
+          exciting, and trusted platform for buying and selling.
+    </p>
+  </div>
+  </div>
+  <div class="about">
+    <div class="abt1">
+        <P>
+            At Bidspirit, we believe that auctions are not just a way to buy and sell—they're an 
+            experience, a journey into the world of history, culture, and unique treasures. 
+            Whether you're an art enthusiast, a seasoned collector, or someone looking to explore 
+            the fascinating world of rare and valuable items, our platform connects you to the heart 
+            of vibrant auction scene.
+        </p>
+      </div>
+
+    <div class="abt">
+      <img class="imgauc" src="img/egypt.jpeg" alt=""> 
+    </div> 
+    </div>
+
+    <h2 class="ychoose">Why Choose Us?</h2>
+    <div class="why">
+      <span>
+        <img src="img/icons8-shopping-bags-50.png" alt="icon" data-aos="fade-up" data-aos-duration="1000">
+        <p>Diverse Listings: Our auctions cover a broad spectrum of categories,
+           including art, electronics, fashion, vehicles, and more.
+          </p>
+      </span>
+      <span>
+        <img src="img/icons8-shield-50.png" alt="icon" data-aos="fade-up" data-aos-duration="1000">
+        <p>Transparency & Security: We are committed to providing a safe and trustworthy environment
+           for both buyers and sellers. Our platform uses state-of-the-art security features to protect
+           your information and ensure fair transactions.
+         </p>
+      </span>
+      <span>
+        <img src="img/icons8-support-50.png" alt="icon" data-aos="fade-up" data-aos-duration="1000">
+        <p>Expert Support: Our knowledgeable support team is always ready to assist you with
+           any questions, whether it's about placing a bid, navigating the site, or resolving issues.
+         </p>
+      </span>
+      <span>
+        <img src="img/icons8-globe-50.png" alt="icon" data-aos="fade-up" data-aos-duration="1000">
+        <p>Global Reach: With a growing community of users from around the world,
+           our auctions offer unparalleled access to rare and unique items, no matter
+           where you're located.
+          </p>
+      </span>
+      <span>
+        <img src="img/icons8-ticket-purchase-50.png" alt="icon" data-aos="fade-up" data-aos-duration="1000">
+        <p> Buyer Protection Guarantee: Ensuring buyers receive their items as described or get a refund.
+         </p>
+      </span>
+      <span>
+        <img src="img/icons8-fair-50.png" alt="icon" data-aos="fade-up" data-aos-duration="1000">
+        <p>Our auctions feature competitive pricing, allowing you to find the best deals.
+           Whether you're a seasoned bidder or a first-time participant, you're sure to discover unbeatable offers.
+         </p>
+      </span>
+    </div>
+    <div class="ourmission">
+        <h2>Our Mission</h2>
+        <p class="mission">
+        Our mission is simple: to offer a trusted, secure,
+        and engaging marketplace for auction enthusiasts of all kinds.
+        We aim to provide an exceptional experience for both bidders and sellers,
+        making the auction process easy, transparent, and enjoyable. We believe in the
+        power of competition to drive value, and we work hard to create a fair environment
+        where everyone has the chance to score incredible deals.
+    </p>
+    </div>
+    <p style="text-align: center; color: green; margin: 50px;">Happy bidding! </p>
+
+
+  <button id="upButton" class="up-button" title="Go to up">⬆</button>
+
+  <div class="tickerWrapper">
+      <div class="ticker">
+          <div class="tickerContent">
+              <span id="dateTime">📅 Fetching time...</span>
+              <span id="location">📍 Fetching location...</span>
+          </div>
+          <div class="tickerContent" aria-hidden="true">
+              <span id="dateTimeMirror">📅 Fetching time...</span>
+              <span id="locationMirror">📍 Fetching location...</span>
+          </div>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer class="footer">
+      <p>© 2025 Auction aisle. All rights reserved.</p>
+      <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+  </footer>
+
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+    <script src="script.js"></script>
+</body>
+</html>

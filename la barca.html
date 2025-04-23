@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style7.css">
+    <title>Auction Aisle+</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="circle">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="text">
+                Bid<span>Spirit</span>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Dive into the catalogs">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="mark">
+                <h2 class="mark-button">Auctions</h2>
+                <div class="dropdown">
+                    <a href="index.html">Upcoming Auctions</a>
+                    <a href="Completed.html">Completed Auctions</a>
+                    <!-- <a href="future.html">Future Auctions</a> -->
+                    <a href="sponsors.html">Sponsored Auctions</a>
+                </div>
+            </li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Login/Register</a>
+                <div class="dropdown-content">
+                    <div class="tabs">
+                        <button class="tablink active" onclick="openTab(event, 'login')">Login</button>
+                        <button class="tablink" onclick="openTab(event, 'register')">Register</button>
+                    </div>
+                    <form id="login" class="tabcontent">
+                        <input type="text" placeholder="Username" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Login</button>
+                    </form>
+                    <form id="register" class="tabcontent">
+                        <input type="text" placeholder="Full Name" required>
+                        <span class="error"></span>
+                        <input type="email" placeholder="Email" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <div class="language-dropdown">
+                    <select>
+                        <option value="en" data-icon="🇺🇸">English</option>
+                        <option value="es" data-icon="🇪🇸">Español</option>
+                        <option value="fr" data-icon="🇫🇷">Français</option>
+                        <option value="de" data-icon="🇩🇪">Deutsch</option>
+                        <option value="zh" data-icon="🇨🇳">中文</option>
+                        <option value="ja" data-icon="🇯🇵">日本語</option>
+                        <option value="ru" data-icon="🇷🇺">Русский</option>
+                        <option value="ar" data-icon="🇸🇦">العربية</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="menu">
+                    <h2 class="menu-button">Help</h2>
+                    <div class="dropdown">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </div>
+            </li>
+            <li><span id="visitorCount" class="visitorCount">Visitors: Loading...</span></li>
+        </ul>
+    </nav>
+    <div class="div1">
+        <h3>FEBRUARY 27 ULTIMATE SPORTS MEMORABILIA AUCTION</h3>
+        <p>By Vintage Auctions Online</p>
+        <h4>Contact auction house</h4>
+        <p>Thursday, Feb 27, 4:00 PM (your local time) <br>
+           <img src="" alt=""> 110 Selhorst Drive, Ottawa, Ohio 45875, Nigeria</p>
+    </div>
+
+    <div class="info">
+        <div class="div-img" data-aos="flip-up" data-aos-duration="2000">
+            <img class="img" src="img/messi.png" alt="Auction Item">
+        </div>
+        <div class="note" >
+            <h3 class="text">The auction will start in 9 hours and 7 minutes </h3>
+            <ul>
+                <li>Start price: £7</li>
+                <li>Estimated price: £10 - £16</li>
+                <li>Buyer's Premium: 20%</li>
+                <li>VAT: 20% On commission only</li>
+            </ul>
+            <p style="font-size: large;">Users from foreign countries may be exempted from tax payments, 
+                according to the relevant tax regulations.</p>
+            <button>CLICK TO PARTICIPATE</button>
+        </div>
+    </div>
+    <div class="tickerWrapper">
+        <div class="ticker">
+            <div class="tickerContent">
+                <span id="dateTime">📅 Fetching time...</span>
+                <span id="location">📍 Fetching location...</span>
+            </div>
+            <div class="tickerContent" aria-hidden="true">
+                <span id="dateTimeMirror">📅 Fetching time...</span>
+                <span id="locationMirror">📍 Fetching location...</span>
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+   
+    <footer class="footer">
+        <p>© 2025 Auction aisle. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+   
+</body>
+</html>

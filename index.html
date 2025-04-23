@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Auction Aisle+</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="circle">
+                <div class="inner-circle"></div>
+            </div>
+            <div class="text">
+                Bid<span>Spirit</span>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Dive into the catalogs">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="mark">
+                <h2 class="mark-button">Auctions</h2>
+                <div class="dropdown">
+                    <a href="index.html">Upcoming Auctions</a>
+                    <a href="Completed.html">Completed Auctions</a>
+                    <!-- <a href="future.html">Future Auctions</a> -->
+                    <a href="sponsors.html">Sponsored Auctions</a>
+                </div>
+            </li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Login/Register</a>
+                <div class="dropdown-content">
+                    <div class="tabs">
+                        <button class="tablink active" onclick="openTab(event, 'login')">Login</button>
+                        <button class="tablink" onclick="openTab(event, 'register')">Register</button>
+                    </div>
+                    <form id="login" class="tabcontent">
+                        <input type="text" placeholder="Username" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Login</button>
+                    </form>
+                    <form id="register" class="tabcontent">
+                        <input type="text" placeholder="Full Name" required>
+                        <span class="error"></span>
+                        <input type="email" placeholder="Email" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Password" required>
+                        <span class="error"></span>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <span class="error"></span>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <div class="language-dropdown">
+                    <select>
+                        <option value="en" data-icon="🇺🇸">English</option>
+                        <option value="es" data-icon="🇪🇸">Español</option>
+                        <option value="fr" data-icon="🇫🇷">Français</option>
+                        <option value="de" data-icon="🇩🇪">Deutsch</option>
+                        <option value="zh" data-icon="🇨🇳">中文</option>
+                        <option value="ja" data-icon="🇯🇵">日本語</option>
+                        <option value="ru" data-icon="🇷🇺">Русский</option>
+                        <option value="ar" data-icon="🇸🇦">العربية</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="menu">
+                    <h2 class="menu-button">Help</h2>
+                    <div class="dropdown">
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                </div>
+            </li>
+            <li><span id="visitorCount" class="visitorCount">Visitors: Loading...</span></li>
+        </ul>
+    </nav>
+
+    <img src="img/pic.avif"class="man">
+    <h3 class="aisle">The Auction aisle portal is your gate to the auction houses’ arena</h3> 
+    <h6 id="">Note: that the time is displayed in your local time</h6>
+ <h2 class="upc">Upcoming autions</h2>
+ <hr class="sho">
+
+ <div class="long">
+<div class="ver">
+ <img src="img/versatile.webp" class="tile"> 
+ <h5 class="versale">Versale - Auction 007</h5>
+ <h4 class="indoor">Tuesday, mar13, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">General auction</h4>
+ <a href="versale.html">
+ <button class="view">VIEW</button>
+</a>
+</div>
+
+<div class="cat">
+ <img src="img/stone.jpeg" class="tile"> 
+ <h5 class="versale">Flin rocks - Auction 17</h5>
+ <h4 class="indoor">Friday, mar16, 7:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Neves Barrida </h4>
+ <a href="flinrocks.html">
+ <button class="view">VIEW</button>
+</a>
+</div>
+<div class="dog">
+ <img src="img/dog.jpeg" class="tile"> 
+ <h5 class="versale">A clasoaures pelvis - Auction 001</h5>
+ <h4 class="indoor">Monday, mar12, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Antiques and Collectibles</h4>
+ <a href="cloasoraus.html">
+ <button class="pin">VIEW</button>
+</a>
+</div>
+<div class="web">
+ <img src="img/ring.jpeg" class="tile"> 
+ <h5 class="versale">Angrippa(ii) ring - Auction 25</h5>
+ <h4 class="indoor">Thursday, apr17, 4:00pm</h4>
+ <hr class="line">
+ 
+ <h4 class="gen">Antiques and collectibles</h4>
+<a href="and.html">
+ <button class="view">VIEW</button>
+</a>
+</div>
+<div class="pac">
+ <img src="img/messi.png" class="tile"> 
+ <h5 class="versale">La Barca - Auction 21</h5>
+ <h4 class="indoor">Monday, api7, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Artifacts</h4>
+ <a href="la barca.html">
+ <button class="view">VIEW</button>
+</a>
+</div>
+<div class="cow">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48161.jpeg" class="tile"> 
+ <h5 class="versale">Regal Goblet - Auction 34</h5>
+ <h4 class="indoor">Tuesday, Apr23, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Antique</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="lak">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48162.jpeg" class="tile"> 
+ <h5 class="versale">Imperial Flute - Auction 23</h5>
+ <h4 class="indoor">saturday, Mar18, 3:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Ancient Greece</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="chill">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48163.jpeg" class="tile"> 
+ <h5 class="versale">Celestial Plume - Auction 006</h5>
+ <h4 class="indoor">Tuesday, Mar13, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Artifacts</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="palm">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48164.jpeg" class="tile"> 
+ <h5 class="versale">Imperial Rod - Auction 23</h5>
+ <h4 class="indoor">Monday, Mar27, 7:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">General auction</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="map">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48165.jpeg" class="tile"> 
+ <h5 class="versale">The Codex - Auction 007</h5>
+ <h4 class="indoor">saturday, Apr30, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Rare books</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="nap">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48172.jpeg" class="tile"> 
+ <h5 class="versale">Dracos - Auction 009</h5>
+ <h4 class="indoor">Tuesday, Apr25, 4:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Collectibles</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="pse">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48166.jpeg" class="tile"> 
+ <h5 class="versale">Bitcion - Auction 22</h5>
+ <h4 class="indoor">Wednesday, Mar18, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Block chain</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="cake">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48169.jpeg" class="tile"> 
+ <h5 class="versale">The Gaze - Auction 007</h5>
+ <h4 class="indoor">Tuesday, Feb18, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Fine Art</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="kane">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48167.jpeg" class="tile"> 
+ <h5 class="versale">Aurora Mask - Auction 45</h5>
+ <h4 class="indoor">Friday, Feb18, 1:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">General auction</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="salah">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48168.jpeg" class="tile"> 
+ <h5 class="versale">The Codex - Auction 007</h5>
+ <h4 class="indoor">saturday, Apr30, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Rare Books</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="enzo">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48170.jpeg" class="tile"> 
+ <h5 class="versale">The Guiding Star - Auction 004</h5>
+ <h4 class="indoor">saturday, Mar13, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">General auction</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="eke">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48171.jpeg" class="tile"> 
+ <h5 class="versale">Opulent Sip - Auction 100</h5>
+ <h4 class="indoor">Tuesday, Mar24, 2:00am</h4>
+ <hr class="line">
+ <h4 class="gen">Artifacts</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="neto">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48173.jpeg" class="tile"> 
+ <h5 class="versale">The Rune Pot" - Auction 65</h5>
+ <h4 class="indoor">Tuesday, Apr21, 2:30pm</h4>
+ <hr class="line">
+ <h4 class="gen">General auction</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="tosin">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48174.jpeg" class="tile"> 
+ <h5 class="versale">Beholding Grace" - Auction 35</h5>
+ <h4 class="indoor">Monday, Apr18, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">Fine Art</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="james">
+ <img src="img/freepik__the-style-is-candid-image-photography-with-natural__48175.jpeg" class="tile">
+ <h5 class="versale">"Hacktivists" - Auction 13</h5>
+ <h4 class="indoor">Thursday, Mar28, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">General auction</h4>
+ <button class="view">VIEW</button>
+</div>
+<div class="cucu">
+ <img src="img/cr7.jpeg" class="tile"> 
+ <h5 class="versale">Legacy - Auction 007</h5>
+ <h4 class="indoor">Wednesday, Mar31, 9:00pm</h4>
+ <hr class="line">
+ <h4 class="gen">General auction</h4>
+ <button class="view">VIEW</button>
+</div>
+
+</div>
+
+<!-- <div class="chat-container">
+ <div class="chat-box" id="chatBox"></div>
+ <div class="input-box">
+     <input type="text" id="userInput" placeholder="Type a message...">
+     <button onclick="sendMessage()">Send</button>
+ </div>
+</div> -->
+ <button id="upButton" class="up-button" title="Go to up">⬆</button>
+
+ <div class="tickerWrapper">
+     <div class="ticker">
+         <div class="tickerContent">
+             <span id="dateTime">📅 Fetching time...</span>
+             <span id="location">📍 Fetching location...</span>
+         </div>
+         <div class="tickerContent" aria-hidden="true">
+             <span id="dateTimeMirror">📅 Fetching time...</span>
+             <span id="locationMirror">📍 Fetching location...</span>
+         </div>
+     </div>
+ </div>
+
+ <script src="script.js"></script>
+
+ <footer class="footer">
+     <p>© 2025 Auction aisle. All rights reserved.</p>
+     <ul class="footer-links">
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Help</a></li>
+         <li><a href="#">Contact</a></li>
+     </ul>
+ </footer>
+</body>
+</html>
+</body>
+</html>
